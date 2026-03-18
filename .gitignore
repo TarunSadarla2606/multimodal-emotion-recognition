@@ -1,0 +1,37 @@
+# Data — never commit raw videos or frames
+data/MELD-RAW/
+frames/
+*.mp4
+*.wav
+*.jpg
+*.jpeg
+!results/figures/*.png
+
+# Model weights
+*.pth
+*.pt
+*.h5
+*.hdf5
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Environments
+.env
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
